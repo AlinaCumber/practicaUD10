@@ -105,9 +105,10 @@ namespace PracticaUD10
             this.LTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LTelefono.Location = new System.Drawing.Point(416, 143);
             this.LTelefono.Name = "LTelefono";
-            this.LTelefono.Size = new System.Drawing.Size(85, 24);
+            this.LTelefono.Size = new System.Drawing.Size(54, 24);
             this.LTelefono.TabIndex = 7;
-            this.LTelefono.Text = "Telefono";
+            this.LTelefono.Text = "Movil";
+            this.LTelefono.Click += new System.EventHandler(this.LTelefono_Click);
             // 
             // LSocios
             // 
