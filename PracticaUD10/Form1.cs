@@ -16,5 +16,11 @@ namespace PracticaUD10
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Socio = tNombre.Text + " " + tApellidos.Text + " " + tTelefono.Text;
+            tSocios.Text = += Socio + "\r\n";
+        }
     }
 }
