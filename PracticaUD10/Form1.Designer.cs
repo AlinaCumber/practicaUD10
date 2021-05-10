@@ -36,7 +36,7 @@ namespace PracticaUD10
             this.button1 = new System.Windows.Forms.Button();
             this.LNombre = new System.Windows.Forms.Label();
             this.LApellido = new System.Windows.Forms.Label();
-            this.LTelefono = new System.Windows.Forms.Label();
+            this.LMovil = new System.Windows.Forms.Label();
             this.LSocios = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -99,16 +99,16 @@ namespace PracticaUD10
             this.LApellido.TabIndex = 6;
             this.LApellido.Text = "Apellido";
             // 
-            // LTelefono
+            // LMovil
             // 
-            this.LTelefono.AutoSize = true;
-            this.LTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LTelefono.Location = new System.Drawing.Point(416, 143);
-            this.LTelefono.Name = "LTelefono";
-            this.LTelefono.Size = new System.Drawing.Size(58, 24);
-            this.LTelefono.TabIndex = 7;
-            this.LTelefono.Text = "Mo\'vil\r\n";
-            this.LTelefono.Click += new System.EventHandler(this.LTelefono_Click);
+            this.LMovil.AutoSize = true;
+            this.LMovil.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LMovil.Location = new System.Drawing.Point(416, 143);
+            this.LMovil.Name = "LMovil";
+            this.LMovil.Size = new System.Drawing.Size(54, 24);
+            this.LMovil.TabIndex = 7;
+            this.LMovil.Text = "Movil";
+            this.LMovil.Click += new System.EventHandler(this.LTelefono_Click);
             // 
             // LSocios
             // 
@@ -125,7 +125,7 @@ namespace PracticaUD10
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LSocios);
-            this.Controls.Add(this.LTelefono);
+            this.Controls.Add(this.LMovil);
             this.Controls.Add(this.LApellido);
             this.Controls.Add(this.LNombre);
             this.Controls.Add(this.button1);
@@ -149,7 +149,7 @@ namespace PracticaUD10
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label LNombre;
         private System.Windows.Forms.Label LApellido;
-        private System.Windows.Forms.Label LTelefono;
+        private System.Windows.Forms.Label LMovil;
         private System.Windows.Forms.Label LSocios;
     }
 }
